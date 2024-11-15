@@ -116,7 +116,7 @@ font-weight: bold;
 font-size: 1.2rem;
 color: #fff;
 img {
-    width: 40%;
+    width: 60%;
 }
 }
 
@@ -192,9 +192,9 @@ input#check{
     }
 }
 
-@media (max-width:768px){
+@media (max-width:600px){
     header.main-header{
-        margin-bottom: 4rem;
+        margin-bottom: 5rem;
     }
     .header-wrap{
         position: fixed;
@@ -208,8 +208,11 @@ input#check{
     .wrap-logo-header{
         position: fixed;
         z-index: 999;
-        top: 3%;
-        left: 3%;
+        top: 1%;
+        left: 1%;
+        img {
+            width: 10%;
+        }
     }
     .logo-header, li.menu-item a{
         color: #222;
@@ -461,6 +464,11 @@ footer li{
     color: #576171;
     font-size: .9rem;
   
+}
+
+.footer-creds{
+    display: flex;
+    flex-flow: row;
 }
 
 @media(max-width:768px){
