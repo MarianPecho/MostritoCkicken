@@ -1,11 +1,9 @@
 *{
     color: white;
+    box-sizing: border-box;
 
 }
 
-.cuadro{
-    
-}
 /* Hero */
 .hero{
     background: url(./assets/images/img1.1.jpg) center;
@@ -20,6 +18,12 @@
 }
 
 /** estilos generales**/
+.seccion-cartas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
 
 .menus {
     display: flex;
