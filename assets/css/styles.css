@@ -1,6 +1,9 @@
+*{
+    color: white;
+}
 /* Hero */
 .hero{
-    background: url(img/hero-front-page-bg.jpg) center;
+    background: url(./assets/images/img1.1.jpg) center;
     background-size: cover;
     height: 100vh;
 }
@@ -28,7 +31,22 @@
 
 
 /** estilos generales**/
+.card-text{
+    color: #000;
+}
+.row{
+    margin: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
 
+}
+.c-titulo{
+    padding: 50px;
+}
+.titulo{
+    color: #000;
+    
+}
 html{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -56,6 +74,7 @@ p{
 
 h1{
     font-size:2.4rem ;
+    color: #000;
 }
 
 h2{
@@ -88,7 +107,6 @@ h6{
 }
 
 /*Header Mostrito*/
-
 header.main-header{
     position: fixed;
     top: 0;
@@ -296,6 +314,7 @@ justify-content: center;
 }
 
 .column-4{
+    padding: 2em;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     column-gap: 1rem;
@@ -375,6 +394,8 @@ Footer
 footer{
     background-color: #000;
     color: white;
+    padding: 0;
+    margin: 0;
 }
 
 footer ul{
@@ -397,7 +418,7 @@ footer li{
   
 .logo-element_footer{
     display: flex;
-    margin: 2rem 0;
+
   
 }
 
